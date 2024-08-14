@@ -1,0 +1,16 @@
+D:\git\prj4\TowerDefence\TowerDefence\TowerDefence.Integration.Test\bin\Release\TowerDefence.Integration.Test.dll
+D:\git\prj4\TowerDefence\TowerDefence\TowerDefence.Integration.Test\bin\Release\TowerDefence.Integration.Test.pdb
+D:\git\prj4\TowerDefence\TowerDefence\TowerDefence.Integration.Test\bin\Release\Castle.Core.dll
+D:\git\prj4\TowerDefence\TowerDefence\TowerDefence.Integration.Test\bin\Release\MonstersMapsTowers.dll
+D:\git\prj4\TowerDefence\TowerDefence\TowerDefence.Integration.Test\bin\Release\NSubstitute.dll
+D:\git\prj4\TowerDefence\TowerDefence\TowerDefence.Integration.Test\bin\Release\nunit.framework.dll
+D:\git\prj4\TowerDefence\TowerDefence\TowerDefence.Integration.Test\bin\Release\System.Threading.Tasks.Extensions.dll
+D:\git\prj4\TowerDefence\TowerDefence\TowerDefence.Integration.Test\bin\Release\MonstersMapsTowers.pdb
+D:\git\prj4\TowerDefence\TowerDefence\TowerDefence.Integration.Test\bin\Release\nunit.framework.pdb
+D:\git\prj4\TowerDefence\TowerDefence\TowerDefence.Integration.Test\bin\Release\nunit.framework.xml
+D:\git\prj4\TowerDefence\TowerDefence\TowerDefence.Integration.Test\bin\Release\System.Threading.Tasks.Extensions.xml
+D:\git\prj4\TowerDefence\TowerDefence\TowerDefence.Integration.Test\obj\Release\TowerDefence.Integration.Test.csprojAssemblyReference.cache
+D:\git\prj4\TowerDefence\TowerDefence\TowerDefence.Integration.Test\obj\Release\TowerDefence.Integration.Test.csproj.CoreCompileInputs.cache
+D:\git\prj4\TowerDefence\TowerDefence\TowerDefence.Integration.Test\obj\Release\TowerDefence.Integration.Test.csproj.CopyComplete
+D:\git\prj4\TowerDefence\TowerDefence\TowerDefence.Integration.Test\obj\Release\TowerDefence.Integration.Test.dll
+D:\git\prj4\TowerDefence\TowerDefence\TowerDefence.Integration.Test\obj\Release\TowerDefence.Integration.Test.pdb

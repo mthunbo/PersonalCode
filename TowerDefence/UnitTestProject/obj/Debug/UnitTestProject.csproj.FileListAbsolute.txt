@@ -1,0 +1,14 @@
+D:\git\prj4\TowerDefence\TowerDefence\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\git\prj4\TowerDefence\TowerDefence\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\git\prj4\TowerDefence\TowerDefence\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\git\prj4\TowerDefence\TowerDefence\UnitTestProject\bin\Debug\UnitTestProject.dll
+D:\git\prj4\TowerDefence\TowerDefence\UnitTestProject\bin\Debug\UnitTestProject.pdb
+D:\git\prj4\TowerDefence\TowerDefence\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\git\prj4\TowerDefence\TowerDefence\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\git\prj4\TowerDefence\TowerDefence\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\git\prj4\TowerDefence\TowerDefence\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\git\prj4\TowerDefence\TowerDefence\UnitTestProject\obj\Debug\UnitTestProject.csprojAssemblyReference.cache
+D:\git\prj4\TowerDefence\TowerDefence\UnitTestProject\obj\Debug\UnitTestProject.csproj.CoreCompileInputs.cache
+D:\git\prj4\TowerDefence\TowerDefence\UnitTestProject\obj\Debug\UnitTestProject.csproj.CopyComplete
+D:\git\prj4\TowerDefence\TowerDefence\UnitTestProject\obj\Debug\UnitTestProject.dll
+D:\git\prj4\TowerDefence\TowerDefence\UnitTestProject\obj\Debug\UnitTestProject.pdb

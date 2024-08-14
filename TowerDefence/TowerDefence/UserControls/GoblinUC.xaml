@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="TowerDefence.UserControls.GoblinUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TowerDefence.UserControls"
+             mc:Ignorable="d">
+    <Canvas Width="32" Height="36">
+        <!--Placeholder for vores Goblin mob-->
+        <StackPanel>
+            <ProgressBar x:Name="HpBar" Margin="0 0 0 2" Minimum="0" Foreground="#FF00D200" BorderBrush="Red" Background="{x:Null}" />
+            <Rectangle Width="32" Height="32">
+                <Rectangle.Fill>
+                    <RadialGradientBrush>
+                        <GradientStop Color="#00000000" Offset="1"/>
+                        <GradientStop Color="#FF007600" Offset="0.802"/>
+                    </RadialGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </StackPanel>
+    </Canvas>
+</UserControl>

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CodeProjects\\TowerDefence\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10658E04-2FE0-49FF-92D8-8916CA21243D}|ClassLibrary1\\Towerdefense.Unit.Test.csproj|d:\\codeprojects\\towerdefence\\classlibrary1\\defensiveunitutillitiesunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10658E04-2FE0-49FF-92D8-8916CA21243D}|ClassLibrary1\\Towerdefense.Unit.Test.csproj|solutionrelative:classlibrary1\\defensiveunitutillitiesunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DefensiveUnitUtillitiesUnitTest.cs",
+              "DocumentMoniker": "D:\\CodeProjects\\TowerDefence\\ClassLibrary1\\DefensiveUnitUtillitiesUnitTest.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\DefensiveUnitUtillitiesUnitTest.cs",
+              "ToolTip": "D:\\CodeProjects\\TowerDefence\\ClassLibrary1\\DefensiveUnitUtillitiesUnitTest.cs",
+              "RelativeToolTip": "ClassLibrary1\\DefensiveUnitUtillitiesUnitTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T07:45:45.671Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

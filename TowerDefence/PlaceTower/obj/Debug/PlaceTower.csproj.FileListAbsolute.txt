@@ -1,0 +1,15 @@
+D:\git\prj4\TowerDefence\TowerDefence\PlaceTower\bin\Debug\PlaceTower.exe.config
+D:\git\prj4\TowerDefence\TowerDefence\PlaceTower\bin\Debug\PlaceTower.exe
+D:\git\prj4\TowerDefence\TowerDefence\PlaceTower\bin\Debug\PlaceTower.pdb
+D:\git\prj4\TowerDefence\TowerDefence\PlaceTower\obj\Debug\PlaceTower.csprojAssemblyReference.cache
+D:\git\prj4\TowerDefence\TowerDefence\PlaceTower\obj\Debug\MainWindow.g.cs
+D:\git\prj4\TowerDefence\TowerDefence\PlaceTower\obj\Debug\App.g.cs
+D:\git\prj4\TowerDefence\TowerDefence\PlaceTower\obj\Debug\PlaceTower_MarkupCompile.cache
+D:\git\prj4\TowerDefence\TowerDefence\PlaceTower\obj\Debug\PlaceTower_MarkupCompile.lref
+D:\git\prj4\TowerDefence\TowerDefence\PlaceTower\obj\Debug\MainWindow.baml
+D:\git\prj4\TowerDefence\TowerDefence\PlaceTower\obj\Debug\PlaceTower.g.resources
+D:\git\prj4\TowerDefence\TowerDefence\PlaceTower\obj\Debug\PlaceTower.Properties.Resources.resources
+D:\git\prj4\TowerDefence\TowerDefence\PlaceTower\obj\Debug\PlaceTower.csproj.GenerateResource.cache
+D:\git\prj4\TowerDefence\TowerDefence\PlaceTower\obj\Debug\PlaceTower.csproj.CoreCompileInputs.cache
+D:\git\prj4\TowerDefence\TowerDefence\PlaceTower\obj\Debug\PlaceTower.exe
+D:\git\prj4\TowerDefence\TowerDefence\PlaceTower\obj\Debug\PlaceTower.pdb

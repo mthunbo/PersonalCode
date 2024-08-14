@@ -1,0 +1,12 @@
+D:\git\prj4\TowerDefence\TowerDefence\MonstersMapsTowers\bin\Release\MonstersMapsTowers.dll
+D:\git\prj4\TowerDefence\TowerDefence\MonstersMapsTowers\bin\Release\MonstersMapsTowers.pdb
+D:\git\prj4\TowerDefence\TowerDefence\MonstersMapsTowers\obj\Release\MonstersMapsTowers.csproj.CoreCompileInputs.cache
+D:\git\prj4\TowerDefence\TowerDefence\MonstersMapsTowers\obj\Release\MonstersMapsTowers.dll
+D:\git\prj4\TowerDefence\TowerDefence\MonstersMapsTowers\obj\Release\MonstersMapsTowers.pdb
+D:\git\prj4\TowerDefence\TowerDefence\MonstersMapsTowers\obj\Release\MonstersMapsTowers.csprojAssemblyReference.cache
+C:\Users\markt\Desktop\TowerDefence\MonstersMapsTowers\bin\Release\MonstersMapsTowers.dll
+C:\Users\markt\Desktop\TowerDefence\MonstersMapsTowers\bin\Release\MonstersMapsTowers.pdb
+C:\Users\markt\Desktop\TowerDefence\MonstersMapsTowers\obj\Release\MonstersMapsTowers.csproj.AssemblyReference.cache
+C:\Users\markt\Desktop\TowerDefence\MonstersMapsTowers\obj\Release\MonstersMapsTowers.csproj.CoreCompileInputs.cache
+C:\Users\markt\Desktop\TowerDefence\MonstersMapsTowers\obj\Release\MonstersMapsTowers.dll
+C:\Users\markt\Desktop\TowerDefence\MonstersMapsTowers\obj\Release\MonstersMapsTowers.pdb

@@ -1,0 +1,16 @@
+D:\git\prj4\TowerDefence\TowerDefence\ClassLibrary1\bin\Release\TowerDefenceUnitTest.dll
+D:\git\prj4\TowerDefence\TowerDefence\ClassLibrary1\bin\Release\TowerDefenceUnitTest.pdb
+D:\git\prj4\TowerDefence\TowerDefence\ClassLibrary1\bin\Release\Castle.Core.dll
+D:\git\prj4\TowerDefence\TowerDefence\ClassLibrary1\bin\Release\MonstersMapsTowers.dll
+D:\git\prj4\TowerDefence\TowerDefence\ClassLibrary1\bin\Release\NSubstitute.dll
+D:\git\prj4\TowerDefence\TowerDefence\ClassLibrary1\bin\Release\nunit.framework.dll
+D:\git\prj4\TowerDefence\TowerDefence\ClassLibrary1\bin\Release\System.Threading.Tasks.Extensions.dll
+D:\git\prj4\TowerDefence\TowerDefence\ClassLibrary1\bin\Release\MonstersMapsTowers.pdb
+D:\git\prj4\TowerDefence\TowerDefence\ClassLibrary1\bin\Release\nunit.framework.pdb
+D:\git\prj4\TowerDefence\TowerDefence\ClassLibrary1\bin\Release\nunit.framework.xml
+D:\git\prj4\TowerDefence\TowerDefence\ClassLibrary1\bin\Release\System.Threading.Tasks.Extensions.xml
+D:\git\prj4\TowerDefence\TowerDefence\ClassLibrary1\obj\Release\Towerdefense.Unit.Test.csprojAssemblyReference.cache
+D:\git\prj4\TowerDefence\TowerDefence\ClassLibrary1\obj\Release\Towerdefense.Unit.Test.csproj.CoreCompileInputs.cache
+D:\git\prj4\TowerDefence\TowerDefence\ClassLibrary1\obj\Release\Towerdefense.Unit.Test.csproj.CopyComplete
+D:\git\prj4\TowerDefence\TowerDefence\ClassLibrary1\obj\Release\TowerDefenceUnitTest.dll
+D:\git\prj4\TowerDefence\TowerDefence\ClassLibrary1\obj\Release\TowerDefenceUnitTest.pdb

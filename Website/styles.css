@@ -1,0 +1,177 @@
+:root {
+    font-size: 15px;
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    
+    --bg-primary: #851d1d;
+    --bg-secondary: #4e1515;
+    --bg-navbar: #4e3838;
+
+    --bg-secondary-opaque: #421c1c8a;
+    --bg-primary-opaque: #4424243b;
+    
+    --transition-speed-button: 300ms;
+    --transition-speed-paragraph: 200ms;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: var(--text-secondary);
+    background-color: var(--bg-navbar);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+}
+
+main {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 12rem;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem;
+    background-color: var(--bg-primary-opaque);
+    width: 80%;
+    border-radius: 1rem;
+    padding-top: 1.6rem;
+}
+
+.description {
+    text-align: justify;
+    background-color: var(--bg-secondary-opaque);
+    padding: 0 1rem;
+    border-radius: 1rem;
+}
+
+.title {
+    margin: 1rem;
+    font-size: 7rem;
+
+}
+
+.merienda-regular {
+    font-family: "Merienda", cursive;
+    font-family: 400;
+    font-style: normal;
+}
+
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.subtitle {
+    margin-top: -1em;
+    margin-bottom: 0.5em;
+    font-size: 1.5rem;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: -2em;
+    margin-bottom: 1em;
+    background-image: linear-gradient(var(--bg-primary), var(--bg-navbar));
+    z-index: 10;
+}
+
+.navbar {
+    margin-top: 0;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 3em;
+}
+
+.nav-item {
+    height: 100%;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: var(--text-primary);
+    text-decoration: none;
+    filter: grayscale(100%) opacity(0.7);
+    transition: var(--transition-speed-button);
+    padding: 0 1rem;
+    border-radius: 0.25rem;
+}
+
+.button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 1.5rem;
+
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    filter: grayscale(0%) opacity(1);
+    background: var(--bg-primary);
+    color: var(--text-secondary);
+}
+
+.link-text {
+    display: none;
+    z-index: -1;
+}
+
+p {
+    margin: 0 0 1rem;
+    text-wrap: wrap;
+    font-family: "consolas";
+    line-height: 1.3;
+}
+
+.paragraph-title {
+    text-align: center;
+    margin: 1rem 0 0.5rem;
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn var(--transition-speed-paragraph) linear forwards;
+}
+
+.fade-out {
+    animation: fadeOut var(--transition-speed-paragraph) linear forwards;
+}
+
+.hidden {
+    display: none;
+}

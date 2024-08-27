@@ -5,6 +5,7 @@ import (
 	"os"
 	"os/exec"
 	"runtime"
+	"strings"
 )
 
 // Addition function that returns the sum of a given number of values
@@ -56,19 +57,19 @@ func division(x []float64) float64 {
 }
 
 // Function that returns the square root of a given number
-func root(base, n float64) float64 {
+func root(x []float64) float64 {
 	result := 1.0
 	for i := 0; i < 1000; i++ {
-		result = ((n-1)*result + base/power(result, n-1)) / n
+		result = (x[1]-1)*result + x[0]/x[1]
 	}
 	return result
 }
 
 // Function that returns the n-th power of a given number
-func power(base, n float64) float64 {
+func power(x []float64) float64 {
 	result := 1.0
-	for i := 0; i < int(n); i++ {
-		result *= base
+	for i := 0; i < int(x[1]); i++ {
+		result *= x[0]
 	}
 	return result
 }
@@ -77,28 +78,64 @@ func power(base, n float64) float64 {
 func getUserInput(choice int) []float64 {
 	var opscount int
 	values := []float64{}
-	operations := [5]string{"ERROR!!!", "Addition", "Subtraction", "Multiplication", "Division"}
-	operands := [5]string{"ERROR!!!", "add", "subtract", "multiply", "divide"}
+	operations := [7]string{"ERROR!!!", "Addition", "Subtraction", "Multiplication", "Division", "Root", "Power"}
+	operands := [7]string{"ERROR!!!", "add", "subtract", "multiply", "divide", "Root", "Power"}
 
 	clearTerminal()
-	fmt.Printf("---%s---\nPlease input the amount numbers you want to %s:", operations[choice], operands[choice])
-	fmt.Scan(&opscount)
-	fmt.Printf("Please input the numbers to %s, press enter after each number\n", operands[choice])
-	//For loop to get the values to calculate on from the user
-	for i := 0; i < opscount; i++ {
+	// If that checks what operations to perform as root and power works a little different than the others
+	if choice < 4 && choice > 0 {
+		fmt.Printf("---%s---\nPlease input the amount numbers you want to %s:", operations[choice], operands[choice])
+		fmt.Scan(&opscount)
+		fmt.Printf("Please input the numbers to %s, press enter after each number\n", operands[choice])
+		//For loop to get the values to calculate on from the user
+		for i := 0; i < opscount; i++ {
+			values = append(values, 0)
+			fmt.Scan(&values[i])
+		}
+	} else {
+		fmt.Printf("---%s---\nPlease input the base number and the coefficient to %s the base with:\n", operations[choice], operands[choice])
 		values = append(values, 0)
-		fmt.Scan(&values[i])
+		fmt.Scan(&values[0])
+		values = append(values, 0)
+		fmt.Scan(&values[1])
 	}
 	return values
+}
+
+// Function that checks if user wants to continue er exit program
+func askForExit() bool {
+	var exit string
+	fmt.Scan(&exit)
+	exit = strings.ToLower(exit)
+	if exit == "yes" || exit == "y" {
+		return true
+	} else if exit == "no" || exit == "n" {
+		return false
+	}
+	return false
+}
+
+// Function that contains the loop that allows for continuous operations
+func operationLoop(fn func(x []float64) float64, choice int) {
+	var values []float64
+	result := 0.0
+
+	for {
+		values = getUserInput(choice)
+		result = fn(values)
+		fmt.Printf("\nThe result of the input is: %f\n", result)
+		fmt.Println("Do you want to continue current math operations[Yes] or exit to do others?[No]")
+		if !askForExit() {
+			operationChooser()
+		}
+	}
 }
 
 // Function that prints a small terminal menu where the different math operations are available
 func operationChooser() {
 	choice := 0
-	var values []float64
-	var base float64
-	var nth float64
 
+	clearTerminal()
 	fmt.Print(`Choose what operation to perform by inputing the corresponding number
 	1. Addition
 	2. Subtraction
@@ -106,37 +143,31 @@ func operationChooser() {
 	4. Division
 	5. Square root
 	6. Power
-	7. End program
+	7. Exit program
 	-`)
 	fmt.Scan(&choice)
 	//Switch to choose the operation to perform
 	switch choice {
 	case 1:
-		values = getUserInput(choice)
-		fmt.Printf("\nThe sum of the input is: %f", addition(values))
+		operationLoop(addition, choice)
 	case 2:
-		values = getUserInput(choice)
-		fmt.Printf("\nThe result of the input is: %f", subtraction(values))
+		operationLoop(subtraction, choice)
 	case 3:
-		values = getUserInput(choice)
-		fmt.Printf("\nThe result of the input is: %f", multiplication(values))
+		operationLoop(multiplication, choice)
 	case 4:
-		values = getUserInput(choice)
-		fmt.Printf("\nThe result of the input is: %f", division(values))
+		operationLoop(division, choice)
 	case 5:
-		fmt.Printf("---Root---\nPlease input the number you wish to get the nth root of, followed by the root coefficient:\n")
-		fmt.Scan(&base)
-		fmt.Scan(&nth)
-		fmt.Printf("\nThe result of the input is: %f", root(base, nth))
+		operationLoop(root, choice)
 	case 6:
-		fmt.Printf("---Power---\nPlease input the number you wish to get the nth power of and the number to uplift it with:\n")
-		fmt.Scan(&base)
-		fmt.Scan(&nth)
-		fmt.Printf("\nThe result of the input is: %f", power(base, nth))
+		operationLoop(power, choice)
 	case 7:
 		clearTerminal()
-		fmt.Println("You sure you want to exit the program? [Yes/No]")
-
+		fmt.Println("Are you sure you want to exit the program? [Yes/No]")
+		if askForExit() {
+			os.Exit(0)
+		} else {
+			operationChooser()
+		}
 	default:
 		fmt.Println("No choice was made, try again")
 		operationChooser()

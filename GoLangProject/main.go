@@ -37,7 +37,7 @@ func multiplication(x []float64) float64 {
 	if len(x) == 0 {
 		return 0.0
 	}
-	var result float64
+	result := 1.0
 	for _, i := range x {
 		result *= i
 	}
@@ -58,6 +58,9 @@ func division(x []float64) float64 {
 
 // Function that returns the square root of a given number
 func root(x []float64) float64 {
+	if len(x) == 0 {
+		return 0.0
+	}
 	result := 1.0
 	for i := 0; i < 1000; i++ {
 		result = (x[1]-1)*result + x[0]/x[1]
@@ -67,6 +70,9 @@ func root(x []float64) float64 {
 
 // Function that returns the n-th power of a given number
 func power(x []float64) float64 {
+	if len(x) == 0 {
+		return 0.0
+	}
 	result := 1.0
 	for i := 0; i < int(x[1]); i++ {
 		result *= x[0]

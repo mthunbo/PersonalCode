@@ -5,6 +5,7 @@
       ".exe",
       ".pkg",
       ".dmg",
+      ".iso",
       ".msi"
       ]},
   { 
@@ -12,6 +13,7 @@
     "extensions": [
       ".zip",
       ".7zip",
+      ".7z",
       ".rar"
       ]},
   {
@@ -24,6 +26,7 @@
       ".xls",
       ".ppt",
       ".xlsx",
+      ".pka",
       ".pptx"
     ]},
   {

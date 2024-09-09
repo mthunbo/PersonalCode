@@ -6,7 +6,7 @@ import json
 def fileMover(file, folder):
     try:
         if not folder.exists():
-            folder.mkdir(parents=True, exists_ok=True)
+            folder.mkdir(parents=True, exist_ok=True)
         shutil.move(file, folder)
     except shutil.Error as e:
         print(e)
@@ -20,7 +20,7 @@ def folderSorter(path):
     extentionMap = {}
     for cat in cats:
         folderName = cat['name']
-        for extention in cat['extentions']:
+        for extention in cat['extensions']:
             extentionMap[extention] = folderName
 
     for file in path.iterdir():

@@ -1,0 +1,77 @@
+[
+  { 
+    "name": "Programs",
+    "extensions": [
+      ".exe",
+      ".pkg",
+      ".dmg",
+      ".msi"
+      ]},
+  { 
+    "name": "Zips",
+    "extensions": [
+      ".zip",
+      ".7zip",
+      ".rar"
+      ]},
+  {
+    "name": "Docs",
+    "extensions": [
+      ".doc",
+      ".docx",
+      ".txt",
+      ".pdf",
+      ".xls",
+      ".ppt",
+      ".xlsx",
+      ".pptx"
+    ]},
+  {
+    "name": "Music",
+    "extensions": [
+      ".mp3",
+      ".wav"
+    ]},
+  {
+    "name": "Vids",
+    "extensions": [
+      ".mp4",
+      ".mov",
+      ".mkv"
+    ]},
+  {
+    "name": "Pics",
+    "extensions": [
+      ".jpg",
+      ".jpeg",
+      ".png",
+      ".svg",
+      ".gif",
+      ".tif",
+      ".tiff"
+    ]},
+  {
+    "name": "Programming",
+    "extensions": [
+      ".py",
+      ".c",
+      ".cpp",
+      ".cxx",
+      ".cs",
+      ".csx",
+      ".bat",
+      ".csv",
+      ".h",
+      ".H",
+      ".hpp",
+      ".hxx",
+      ".go",
+      ".sh",
+      ".htm",
+      ".html",
+      ".xaml",
+      ".xml",
+      ".json",
+      ".asm"
+    ]}
+]

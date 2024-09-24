@@ -4,8 +4,6 @@
     "extensions": [
       ".exe",
       ".pkg",
-      ".dmg",
-      ".iso",
       ".msi"
       ]},
   { 
@@ -14,33 +12,48 @@
       ".zip",
       ".7zip",
       ".7z",
-      ".rar"
+      ".rar",
+      ".pkg",
+      ".z"
       ]},
   {
     "name": "Docs",
     "extensions": [
       ".doc",
       ".docx",
+      ".pps",
+      ".ppt",
+      ".pptx",
+      ".xls",
+      ".xlsx",
+      ".xlsm",
+      ".csv",
       ".txt",
       ".pdf",
-      ".xls",
-      ".ppt",
-      ".xlsx",
       ".pka",
-      ".pptx"
+      ".md",
+      ".odp",
+      ".odt",
+      ".tex"
     ]},
   {
     "name": "Music",
     "extensions": [
       ".mp3",
-      ".wav"
+      ".wav",
+      ".wma"
     ]},
   {
     "name": "Vids",
     "extensions": [
       ".mp4",
       ".mov",
-      ".mkv"
+      ".mkv",
+      ".avi",
+      ".mpg",
+      ".mpeg",
+      ".wmv",
+      ".webm"
     ]},
   {
     "name": "Pics",
@@ -51,30 +64,54 @@
       ".svg",
       ".gif",
       ".tif",
-      ".tiff"
+      ".tiff",
+      ".ai",
+      ".bmp",
+      ".webp"
     ]},
   {
     "name": "Programming",
     "extensions": [
       ".py",
+      ".pyw",
       ".c",
       ".cpp",
       ".cxx",
       ".cs",
       ".csx",
-      ".bat",
-      ".csv",
       ".h",
       ".H",
       ".hpp",
       ".hxx",
+      ".bat",
       ".go",
       ".sh",
       ".htm",
       ".html",
+      "xhtml",
       ".xaml",
       ".xml",
       ".json",
-      ".asm"
-    ]}
+      ".asm",
+      ".sql",
+      ".db",
+      ".dbf",
+      ".dat",
+      ".wsf",
+      ".js",
+      ".jsp",
+      "rss",
+      ".asp",
+      ".aspx",
+      ".java"
+    ]},
+  {
+    "name": "DiscImg",
+    "extensions": [
+      ".iso",
+      ".dmg",
+      ".bin",
+      ".vcd"
+    ]
+  }
 ]

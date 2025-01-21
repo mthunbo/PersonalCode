@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\CodeProjects\\TowerDefence\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C359650B-453C-4AC3-9A78-CCD824D7D1AB}|TowerDefence\\TowerDefence.csproj|d:\\codeprojects\\towerdefence\\towerdefence\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C359650B-453C-4AC3-9A78-CCD824D7D1AB}|TowerDefence\\TowerDefence.csproj|solutionrelative:towerdefence\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C359650B-453C-4AC3-9A78-CCD824D7D1AB}|TowerDefence\\TowerDefence.csproj|d:\\codeprojects\\towerdefence\\towerdefence\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C359650B-453C-4AC3-9A78-CCD824D7D1AB}|TowerDefence\\TowerDefence.csproj|solutionrelative:towerdefence\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{10658E04-2FE0-49FF-92D8-8916CA21243D}|ClassLibrary1\\Towerdefense.Unit.Test.csproj|d:\\codeprojects\\towerdefence\\classlibrary1\\defensiveunitutillitiesunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10658E04-2FE0-49FF-92D8-8916CA21243D}|ClassLibrary1\\Towerdefense.Unit.Test.csproj|solutionrelative:classlibrary1\\defensiveunitutillitiesunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +27,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\CodeProjects\\TowerDefence\\TowerDefence\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TowerDefence\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\CodeProjects\\TowerDefence\\TowerDefence\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TowerDefence\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T10:12:53.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\CodeProjects\\TowerDefence\\TowerDefence\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "TowerDefence\\MainWindow.xaml",
+              "ToolTip": "D:\\CodeProjects\\TowerDefence\\TowerDefence\\MainWindow.xaml",
+              "RelativeToolTip": "TowerDefence\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-29T10:12:17.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DefensiveUnitUtillitiesUnitTest.cs",
               "DocumentMoniker": "D:\\CodeProjects\\TowerDefence\\ClassLibrary1\\DefensiveUnitUtillitiesUnitTest.cs",
               "RelativeDocumentMoniker": "ClassLibrary1\\DefensiveUnitUtillitiesUnitTest.cs",

@@ -25,7 +25,8 @@ class SorterEventHandler(FileSystemEventHandler):
             for extention in cat['extensions']:
                 self.extensionMap[extention] = folderName        
     
-    def on_modified(self, event):
+    def on_created(self, event):
+        sleep(1000)
         self.process(event)
 
     def process(self, event):
